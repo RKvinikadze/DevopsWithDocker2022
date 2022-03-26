@@ -2,7 +2,7 @@
 
 ## Exercise 1.1: Getting started
 
-- Start 3 containers from image that does not automatically exit, such as nginx, detached.
+- Start 3 containers from image that does not automatically exit, detached.
 
 ``` shell
   docker container run -d cassandra
@@ -17,7 +17,7 @@
   docker container stop 891c3b16a10e
 ```
 
-- Submit the output for docker ps -a which shows 2 stopped containers and one running.
+- The output for docker ps -a which shows 2 stopped containers and one running.
 
 ``` shell
   CONTAINER ID   IMAGE       COMMAND                  CREATED          STATUS                            PORTS     NAMES
