@@ -1,7 +1,7 @@
 # Part 1
 
 ## Exercise 1.1: Getting started
-
+---
 - Start 3 containers from image that does not automatically exit, detached.
 
 ``` shell

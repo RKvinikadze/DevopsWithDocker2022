@@ -1,7 +1,7 @@
 # Part 1
 
 ## Exercise 1.6: Hello Docker Hub
-
+---
 - Command
 
 ``` shell

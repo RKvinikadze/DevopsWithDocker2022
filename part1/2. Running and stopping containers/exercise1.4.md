@@ -1,7 +1,7 @@
 # Part 1
 
 ## Exercise 1.4: Missing dependencies
-
+---
 - Command
 
 ``` shell

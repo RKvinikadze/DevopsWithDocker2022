@@ -1,7 +1,7 @@
 # Part 1
 
 ## Exercise 1.2: Cleanup
-
+---
 - Clean the docker daemon from all images and containers.
 
 ``` shell
