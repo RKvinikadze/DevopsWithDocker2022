@@ -4,7 +4,7 @@
 ---
 - Commands
 
-``` shell
+``` powershell
   docker run -d -ti --name secret-message devopsdockeruh/simple-web-service:ubuntu
 
   docker exec -ti secret-message bash
@@ -14,6 +14,6 @@
 
 - Secret message
 
-``` shell
+``` powershell
   Secret message is: 'You can find the source code here: https://github.com/docker-hy'
 ```

@@ -3,7 +3,7 @@
 ## Exercise 1.7: Exercise 1.7: Two line Dockerfile
 ---
 - Commands
-``` shell
+``` powershell
   docker build . -t web-server
 
   docker run web-server

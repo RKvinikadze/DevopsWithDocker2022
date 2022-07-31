@@ -4,7 +4,7 @@
 ---
 - Clean the docker daemon from all images and containers.
 
-``` shell
+``` powershell
   docker stop 299640e7a507
 
   docker container prune
@@ -15,7 +15,7 @@
 
 - The output for docker ps -a and docker images
 
-``` shell
+``` powershell
 docker ps -a
 
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES

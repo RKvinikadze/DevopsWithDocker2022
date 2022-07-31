@@ -4,7 +4,7 @@
 ---
 - Pulling **_devopsdockeruh/simple-web-service:alpine_** and **_devopsdockeruh/simple-web-service:ubuntu_** images.
 
-``` shell
+``` powershell
   docker pull devopsdockeruh/simple-web-service:alpine
 
   docker pull devopsdockeruh/simple-web-service:ubuntu
@@ -12,7 +12,7 @@
 
 - Comparing the image sizes
 
-``` shell
+``` powershell
   docker images
 
   REPOSITORY                           TAG       IMAGE ID       CREATED         SIZE
@@ -24,7 +24,7 @@
 
 - Go inside the alpine conitainer and make sure the secret message functionally is the same.
 
-```shell
+```powershell
   docker run --rm -ti --name web-service-alpine -d devopsdockeruh/simple-web-service:alpine
 
   docker exec -ti web-servie-alpine sh

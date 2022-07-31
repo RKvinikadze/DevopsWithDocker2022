@@ -3,7 +3,7 @@
 ## Exercise 1.8: Image for script
 ---
 - Commands
-``` shell
+``` powershell
   docker build . -t curler
 
   docker run -ti curler

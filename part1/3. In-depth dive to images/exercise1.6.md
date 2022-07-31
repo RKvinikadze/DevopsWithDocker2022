@@ -4,13 +4,13 @@
 ---
 - Command
 
-``` shell
+``` powershell
   docker run -it devopsdockeruh/pull_exercise
 ```
 
 - Secret message
 
-``` shell
+``` powershell
   Give me the password: basics
   
   You found the correct password. Secret message is: "This is the secret message"

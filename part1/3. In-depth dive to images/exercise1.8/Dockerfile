@@ -1,12 +1,9 @@
-FROM ubuntu:20.04
+FROM openjdk:8
 
-WORKDIR /usr/src/app
+EXPOSE 8080
 
-RUN apt-get update
-RUN apt-get install -y curl
+COPY /spring-example-project .
 
-COPY script.sh .
+RUN ./mvnw package
 
-RUN chmod +x ./script.sh
-
-CMD ./script.sh
+CMD ["java", "-jar", "./target/docker-example-1.1.3.jar"]
